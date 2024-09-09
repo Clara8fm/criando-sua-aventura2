@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Minhas férias</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="">
+            <p>As férias estão chegando finalmente, achei que ia passar em casa mas minha família está planejando uma viagem! Me perguntaram se eu tenho algum lugar em mente, to em dúvida de dois:</p>
+            <button class="btn-proximo" data-proximo="1">Rio de Janeiro</button>
+            <button class="btn-proximo" data-proximo="2">Fortaleza</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você começa sua jornada no Rio de Janeiro, no bondinho para o morro do pão de açúcar, mas a fila está gigante, coisa de 3 horas e ta 42º.</p>
+            <button class="btn-proximo" data-proximo="3">Esperar e ver a vista</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e ir a outra atração</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Em Fortaleza, você visita a praia de Iracema. Tem uma das vistas mais bonitas que vocẽ ja viu, mas teve arrastão</p>
+            <button class="btn-proximo" data-proximo="5">Correr pra água com seus itens</button>
+            <button class="btn-proximo" data-proximo="6">Correr pra rua saindo da praia</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Finalmente chegou sua vez de ir, demorou mais que o esperado mas valeu a pena apesar de estar de noite.</p>
+            <button class="btn-proximo" data-proximo="7">Voltar para o hotel</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4-voltar-casa.png" alt="imagem voltando para casa e desitindo da aventura">
+            <p>Você volta para o hotel e aproveita o dia lá, mas sempre se pergunta como seria se tivesse esperado.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Você se salvou e salvou seus itens, agora pode aproveitar a praia em paz.</p>
+            <button class="btn-proximo" data-proximo="7">Voltar para o mar</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Você foi roubado e acabou se machucando correndo.</p>
+            <button class="btn-proximo" data-proximo="8">Voltar para o hotel</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Antes de dormir, você tem que planejar seu proximo destino.</p>
+            <button class="btn-proximo" data-proximo="9">Cristo Redentor</button>
+            <button class="btn-proximo" data-proximo="10">Visitar o maracanã</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>Você voltou andando e está muito cansado, como está machucado não pode entrar no beach park, irá ter que mudar seu próximo destino</p>
+            <button class="btn-proximo" data-proximo="7">ir para a arena castelão</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>Apesar do valor ser um roubo, você já imaginava o preço, está na fila e deu sorte de chegar cedo, jajá é a sua vez.</p>
+            <button class="btn-proximo" data-proximo="11">Fazer o tour</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>Você fez o tour no estádio e aproveitou para comprar o ingresso pro FlaXFlu. O fluminense ganhou mesmo estando na z4</p>
+            <button class="btn-proximo" data-proximo="12">Ir para o hotel depois do jogo</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/cenario-passo11-cidade-perdida.png" alt="encontrando uma cidade maravilhosa perdida no Amazonas">
+            <p>Vocẽ gostou do passeio e aprendeu sobre o significado da estátua</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Chegou ao fim sua estadia.</p>
+            <button class="btn-proximo" data-proximo="11">Hora de ir pra casa</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
